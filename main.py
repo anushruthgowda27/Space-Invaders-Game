@@ -1,4 +1,4 @@
-#arjun m
+
 import pygame
 import random
 import math
@@ -170,7 +170,7 @@ def collision_check(object1, object2):#arjun s
     distance = math.sqrt(math.pow((x2_cm - x1_cm), 2) + math.pow((y2_cm - y1_cm), 2))
     return distance < ((object1.width + object2.width) / 2)
 
-def level_up():#ankitha
+def level_up():
     global life
     global level
     global difficulty
